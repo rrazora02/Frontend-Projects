@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social-Media Butrons</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <div class="icons">
+        <li><a href="https://www.google.com/" target="main"><span <i class='bx bxl-google'></i></span></a></li>
+        <li><a href="#"><span <i class='bx bxl-twitter'></i></span></a></li>
+        <li><a href="#"><span <i class='bx bxl-instagram'></i></span></a></li>
+        <li><a href="#"><span <i class='bx bxl-github' ></i></span></a></li>
+        <li><a href="#"><span <i class='bx bxl-youtube'></i></span></a></li>
+    </div>
+    <script>
+        $('.icons li').click(function(){
+            $(this).toggleClass("active").siblings();
+            $('.icons li a').toggleClass("active").siblings();            
+        });
+        
+        
+    </script>
+</body>
+</html>

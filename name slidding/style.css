@@ -1,0 +1,15 @@
+.name-tabs{
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    transition: 0.7sec;
+    width: 100px;
+}
+
+.name-tabs:hover{
+    background-color: rgb(232, 216, 191);
+    color: rgb(206, 43, 25);
+    cursor: pointer;
+    transform: translateX(20px);
+}
